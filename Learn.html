@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzy</title>
+    <link rel="stylesheet" href="Learn.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quizzy</h1>
+        <p class="instruction">CLICK ON THIS LINK TO<br>LEARN BELOW</p>
+        <a href="https://www.w3schools.com/" class="quiz-link" id="quizLink">https://www.w3schools.com/</a>
+    </div>
+    
+
+    <script>
+        document.getElementById('quizLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('You are being redirected to W3Schools to learn!');
+            window.location.href = this.href;
+        });
+        </script>
+</body>
+</html>
