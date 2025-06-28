@@ -25,7 +25,7 @@
                 </div>
                 <button type="submit">Sign Up</button>
             </form>
-            <p class="login-link">Already have an account? <a href="#">Sign In</a></p>
+            <p class="login-link">Already have an account? <a href="Sign in.html">Sign In</a></p>
         </div>
         
     </div>
@@ -49,6 +49,14 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
        
         this.reset();
         window.location.href="./Index.html"
+
+      
+  document.querySelector("Sign in.html").addEventListener('click', function() {
+    console.log('Button clicked!');
+    setTimeout(() => {
+        window.open('./Sign in.html');
+    }, 500);
+});
 
     });
 

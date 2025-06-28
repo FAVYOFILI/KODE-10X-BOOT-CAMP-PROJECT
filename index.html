@@ -24,32 +24,24 @@
         </div>
       </div>
       <div class="hero">
-          <div class="herop">
-            <h1 class="bold">
-              Get Entertained, Have fun and
-              Boost your Intellectuals.
-            </h1>
-            <p class="bol">
-              Are you ready to test your knowledge,challenge your friends, and
-              learn  something new? 
-              Play fun quiz designed to make learning engaging and entertaining!
-            </p>
-            <button class="buttons">
-             <button class="learnfirst">Learn First
-                <script>
-                    // window.location.href="./Learn.html"
-                </script>
-             </button>
-             <button class="gamewithus">Game with US
-                <script>
-                    // window.location.href="./Quiz.html"
-                </script>
-             </button>
-            </button>
-          </div>
+        <div class="herop">
+          <h1 class="bold">
+            Get Entertained, Have fun and Boost your Intellectuals.
+          </h1>
+          <p class="bol">
+            Are you ready to test your knowledge,challenge your friends, and
+            learn something new? Play fun quiz designed to make learning
+            engaging and entertaining!
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button class="learnfirst">Learn First</button>
+          <button class="gamewithus">Game With Us</button>
+        </div>
       </div>
 
-      <div class="secondhero">
+      <div class="secondhero" id="quizzy">
         <div class="cards">
           <div class="Subcard1">
             <img src="./images (1).jpeg" alt="Card Image" />
@@ -125,9 +117,18 @@
             certain values to "win."
           </p>
         </div>
+        <div class="Third">
+          <h1 class="fir">Get Entertained</h1>
+          <p class="sec">
+            Test your knowledge, challenge friends, and have fun with our
+            interactive quiz app! With a variety of categories from trivia and
+            pop culture to science and history there's something for everyone.
+            Earn points, unlock levels, and compete on leaderboards.
+          </p>
+        </div>
       </div>
 
-      <div class="fourthhero">
+      <div class="fourthhero" id="about">
         <div class="Four">
           <div class="text">
             <h1 class="textt">About Us</h1>
@@ -148,24 +149,50 @@
       </div>
 
       <div class="Footer">
-        <div footer1></div>
-        <div footer2>
-          <h1 class="afooter">Quick Links</h1>
-          <p class="bfooter">
-            Learn First Game With US What Quizzy Do? About Quizzy
-          </p>
+        <div class="footer1">
+            <img
+              src="./c62f049232a43427ddc24234150f5ccd.jpg"
+              alt="Logo Picture"
+            />
+            Quizzy
         </div>
-        <div footer3>
+        <div class="footer2">
+          <h1 class="afooter">Quick Links</h1>
+           <a href="./Learn.html">Learn First</a> 
+             <a href="./Quiz.html">Game With US</a>
+              <a href="#quizzy">What Quizzy Do?</a>
+              <a href="#about">About Quizzy</a>
+        </div>
+        <div  class="footer3">
           <h1 class="afooter">Contact Us</h1>
-          <p class="bfooter">
-            +234-810-813-9301 
-            https://www.tiktok.com/@favy.ofili
-            https://www.instagram.com/favyofili/
-           https://x.com/favyofili
+            <span>+234-810-813-9301</span>
+             <a href="">https://www.tiktok.com/@favy.ofili</a>
+            <a href="">https://www.instagram.com/favyofili/</a> 
+           <a href=""> https://x.com/favyofili</a>
           </p>
         </div>
       </div>
     </div>
+
+ <script>
+  document.querySelector('.learnfirst').addEventListener('click', function() {
+    console.log('Button clicked!');
+    setTimeout(() => {
+        window.open('./Learn.html');
+    }, 500);
+});
+ </script>
+
+ 
+<script>
+  document.querySelector('.gamewithus').addEventListener('click', function() {
+    console.log('Button clicked!');
+    setTimeout(() => {
+        window.open('./Quiz.html');
+    }, 500);
+});
+ </script>
+  
+        
   </body>
 </html>
-
