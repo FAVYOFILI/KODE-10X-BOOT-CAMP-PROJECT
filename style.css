@@ -184,7 +184,7 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  border: solid 1px rgba(128, 128, 128, 0.123);
+  border: solid 2px #007573;
 }
 
 .Subcard1 {
@@ -208,6 +208,7 @@
   margin-top: 10px;
   font-family: "Poppins";
   text-align: center;
+  color: #007574;
 }
 
 .Subp {
@@ -215,6 +216,7 @@
   margin-top: 10px;
   text-align: center;
   padding: 0 10px;
+  color: #007574;
 }
 
 .thirdhero {
@@ -233,7 +235,7 @@
   padding: 20px;
   background-color: white;
   border-radius: 20px;
-  border: solid 1px rgba(128, 128, 128, 0.123);
+  border: solid 2px #007573;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -242,12 +244,14 @@
   font-size: 1.1rem;
   margin-top: 10px;
   font-family: "Poppins";
+  color: #007574;
 }
 
 .sec {
   margin-top: 10px;
   font-size: 0.9rem;
   font-family: "Poppins";
+  color: #007574;
 }
 
 .fourthhero {
@@ -295,12 +299,14 @@
   height: auto;
   border-radius: 20px;
   margin-top: 20px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5)), url("./c62f049232a43427ddc24234150f5ccd.jpg"); */
 }
 
 .Five img {
   width: 100%;
   height: auto;
   border-radius: 20px;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5)), url("./c62f049232a43427ddc24234150f5ccd.jpg"); */
 }
 
 .Footer {
@@ -334,6 +340,7 @@
   align-items: center;
   border-radius: 20px;
   margin-left: 0;
+  /* justify-content: center; */
 }
 
 .footer2, .footer3 {
