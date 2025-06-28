@@ -360,6 +360,10 @@
   margin-bottom: 10px;
 }
 
+.fr {
+  color: white;
+}
+
  /* Desktop View  */
 @media (min-width: 768px) {
   .header {
@@ -375,11 +379,11 @@
   }
   
   .bold {
-    font-size: 3.5rem;
+    font-size: 56px;
   }
   
   .bol {
-    font-size: 1.5rem;
+    font-size: 56px;
     width: 70%;
   }
   
@@ -447,11 +451,11 @@
   }
   
   .bold {
-    font-size: 4rem;
+    font-size: 64px;
   }
   
   .bol {
-    font-size: 1.8rem;
+    font-size: 29px;
   }
   
   .secondhero {
