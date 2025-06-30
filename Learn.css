@@ -10,7 +10,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: row;
-  padding: ;
+  /* padding: ; */
   flex-wrap: wrap;
 }
 
@@ -21,6 +21,57 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px 10px 10px 10px;
+  height: 220px;
+  width: 200px;
+}
+
+.buttons {
+  width: 100px;
+  height: 30px;
+  background-color: #007574;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.buttons:hover{
+  cursor: pointer;
+  transition: all 180ms;
+}
+
+h1 {
+  color: #007574;
+  margin-bottom: 20px;
+}
+
+.instruction {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.quiz-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007574;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.quiz-link:hover {
+  background-color: #007574;
+}
+
+/* .container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -47,9 +98,9 @@ h1 {
 
 .quiz-link:hover {
   background-color: #007574;
-}
+} */
 
-.container {
+/* .container {
   text-align: center;
   background-color: white;
   padding: 30px;
@@ -285,38 +336,4 @@ h1 {
 
 .quiz-link:hover {
   background-color: #007574;
-}
-
-.container {
-  text-align: center;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.instruction {
-  color: #555;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.quiz-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007574;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-.quiz-link:hover {
-  background-color: #007574;
-}
+} */
