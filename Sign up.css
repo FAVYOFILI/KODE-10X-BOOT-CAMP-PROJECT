@@ -11,6 +11,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: "Poppins";
 }
 
 .signup-form {
@@ -21,6 +22,7 @@
     width: 100%;
     max-width: 400px;
     margin-top: 40px;
+    font-family: "Poppins";
 }
 
 .signup-form h2 {
@@ -73,36 +75,35 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+    .body {
+        padding: 15px;
+    }
+    
     .signup-form {
-        padding: 24px;
+        padding: 25px;
+        box-shadow: none;
+        max-width: 100%;
     }
     
     .signup-form h2 {
-        font-size: 24px;
-        margin-bottom: 19px;
+        font-size: 22px;
     }
     
     .form-group input {
-        padding: 11px;
+        padding: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .signup-form {
+        padding: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
     }
     
     button[type="submit"] {
-        padding: 11px;
+        padding: 14px;
     }
 }
-@media (max-width: 400px) {
-    .body {
-        padding: 10px;
-    }
-    
-    .signup-form {
-        padding: 19px;
-    }
-    
-    .signup-form h2 {
-        font-size: 20px;
-    }
-}
-
-

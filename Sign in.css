@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     /* margin-top: 80px; */
+    font-family: "Poppins";
 }
 
 .signin-form {
@@ -23,6 +24,7 @@
     max-width: 400px;
     margin-bottom: 30px;
     margin-top: 40px;
+    font-family: "Poppins";
 }
 
 .signin-form h2 {
@@ -59,15 +61,23 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 button[type="submit"]:hover {
     background-color: #007574;
+    color: white;
+}
+
+button[type="submit"] a {
+    text-decoration: none;
+    color: white;
 }
 
 .login-link {
     text-align: center;
     margin-top: 15px;
+    text-decoration: none;
 }
 
 .login-link a {
@@ -75,21 +85,32 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-@media (max-width: 480px) {
-    .signin-form {
-        padding: 20px;
+@media (max-width: 768px) {
+    .body {
+        padding: 15px;
     }
     
-    .signin-form h2 {
-        font-size: 20px;
+    .signin-form {
+        padding: 25px;
+        box-shadow: none;
     }
     
     .form-group input {
-        padding: 10px;
-    }
-    
-    button[type="submit"] {
         padding: 12px;
     }
 }
 
+@media (max-width: 480px) {
+    .signin-form {
+    padding: 20px;
+    max-width: 100%;
+}
+
+.signin-form h2 {
+    font-size: 22px;
+}
+
+button[type="submit"] {
+    padding: 14px;
+}
+}
